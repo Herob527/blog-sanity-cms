@@ -15,5 +15,10 @@ export default defineType({
       title: 'Icon',
       type: 'image',
     }),
+    defineField({
+      name: 'iconAlt',
+      title: 'Icon alt text',
+      type: 'string',
+    }),
   ],
 })
